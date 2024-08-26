@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.painting-container {
+  display: grid;
+  width: 748px;
+  height: 748px;
+  grid-template-columns: 320px 198px 153px 20px;
+  grid-template-rows: 414px 130px 155px 20px;
+}
+
+.painting-container__blocks {
+  background-color: #f0f1ec;
+}
+
+.painting-container__blocks_red {
+  background-color: #e72f24;
+}
+
+.painting-container__blocks_blue {
+  background-color: #004592;
+  border-bottom: 10px solid #000;
+}
+
+.painting-container__blocks_yellow {
+  background-color: #f9d01e;
+}
+
+.painting-container__blocks_black {
+  background-color: #232629;
+}
